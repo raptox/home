@@ -15,9 +15,3 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # export LANG=en_US.UTF-8
 
 export JAVA_HOME=$(/usr/libexec/java_home)
-
-# NVM
-if [ -s ~/.nvm/nvm.sh ]; then
-	NVM_DIR=~/.nvm
-	source ~/.nvm/nvm.sh
-fi
